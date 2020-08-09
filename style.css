@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    height: 100vh;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 20vh;
+    font-size: 2rem;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    font-size: 2rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.box h1 {
+    font-family: sans-serif;
+    font-size: 10rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-container input {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.input-container .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: 2px solid white;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+    font-size: 1.5rem;
+    user-select:none;
+
+}
+
+.input-container .start:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.input-container .start:active {
+    transform: scale(.99, .99);
+    transition: .01s;
+}
