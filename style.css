@@ -18,9 +18,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 30px;
     height: 20vh;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .timer-container {
