@@ -79,7 +79,6 @@ body {
     outline: none;
     font-size: 1.5rem;
     user-select:none;
-
 }
 
 .input-container .start:hover {
@@ -88,6 +87,6 @@ body {
 }
 
 .input-container .start:active {
-    transform: scale(.99, .99);
+    transform: scale(.98, .98);
     transition: .01s;
 }
