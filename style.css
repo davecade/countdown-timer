@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #333;
+    background-color: #555;
     color: white;
     height: 100vh;
 }
@@ -38,7 +38,7 @@ body {
     width: 200px;
     height: 200px;
     margin: 30px;
-    border: 1px solid white;
+    border: 5px solid #222;
     background-color: white;
     color: black;
 }
@@ -64,6 +64,7 @@ body {
     height: 50px;
     width: 400px;
     border-radius: 5px;
+    border: 3px solid #222;
 }
 
 .input-container .start {
@@ -75,7 +76,7 @@ body {
     height: 50px;
     width: 150px;
     border-radius: 5px;
-    background-color: black;
+    background-color: #111;
     outline: none;
     font-size: 1.5rem;
     user-select:none;
